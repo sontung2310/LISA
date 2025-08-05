@@ -8,13 +8,6 @@
 ## Abstract
 LISA, short for Language Instructed Segmentation Assistant, is a new kind of artificial intelligence system that can understand both pictures and language together. Unlike many computer programs that can only recognize objects they were trained to see, LISA can understand new and unfamiliar objects by using language to guide its thinking. It works by taking a natural language instruction, such as "find the object used for cooking," and then looks at an image to find the most relevant part. LISA combines the ability to see with the ability to read and reason. This makes it useful in many real-life situations, such as helping robots understand their surroundings or helping users search for specific items in complex images.
 
-## Highlights
-**LISA** unlocks the new segmentation capabilities of multi-modal LLMs, and can handle cases involving: 
-1. complex reasoning; 
-2. world knowledge; 
-3. explanatory answers; 
-4. multi-turn conversation. 
-
 
 ## Installation
 ```
@@ -58,7 +51,6 @@ To run the gradio interface (load in 8bit and fp16):
 ```
 CUDA_VISIBLE_DEVICES=0 CUDA_VISIBLE_DEVICES=0 python gradio_lisa.py 
 ```
-
 
 
 ## Citation 
